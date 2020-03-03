@@ -1,7 +1,13 @@
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> ff9b5869824452a4e49bc2cb422436cfde6730b4
 source_array = [1,2,3,-9]
 
 def map_to_negativize(source_array)
   
+<<<<<<< HEAD
   new_array = [] 
   index = 0 
   while index < source_array.length do
@@ -141,6 +147,22 @@ end
 
 
 
+=======
+  index = 0 
+  while index < source_array.length do
+    puts source_array[index] * (-1) 
+    index += 1 
+  end
+
+new_array = []
+new_array << source_array
+
+new_array 
+
+end 
+
+p map_to_negativize(source_array) 
+>>>>>>> ff9b5869824452a4e49bc2cb422436cfde6730b4
 
 
 
@@ -149,3 +171,9 @@ end
 
 
 
+<<<<<<< HEAD
+=======
+# map_to_no_change(source_array)
+# map_to_double(source_array)
+# map_to_square(source_array)
+>>>>>>> ff9b5869824452a4e49bc2cb422436cfde6730b4
